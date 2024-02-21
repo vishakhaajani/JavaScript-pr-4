@@ -1,0 +1,123 @@
+<!-- 7.Write a JavaScript program to find which number is greter in 3 numbers using nested if else.(using all function) -->
+
+<script>
+
+    //TNRN
+
+    // function greter (){
+
+    //     var a = parseInt(prompt("Enter A : "));
+    //     var b = parseInt(prompt("Enter B : "));
+    //     var c = parseInt(prompt("Enter C : "));
+
+    //     if (a > b)
+    //     {
+    //         if (a > c)
+    //         {
+    //             document.write(`A greter..`);
+    //         }
+    //         else
+    //         {
+    //             document.write(`C greter..`);
+    //         }
+    //     }
+    //     else
+    //     {
+    //         if(b > c)
+    //         {
+    //             document.write(`B greter..`);
+    //         }
+    //         else
+    //         {
+    //             document.write(`C greter..`);
+    //         }
+    //     }
+
+    // }
+
+    // greter ();
+
+
+    // TSRN
+
+    // function greter(a,b,c) {
+
+    //     if (a > b) {
+    //         if (a > c) {
+    //             document.write(`A greter..`);
+    //         }
+    //         else {
+    //             document.write(`C greter..`);
+    //         }
+    //     }
+    //     else {
+    //         if (b > c) {
+    //             document.write(`B greter..`);
+    //         }
+    //         else {
+    //             document.write(`C greter..`);
+    //         }
+    //     }
+
+    // }
+
+    // greter(1,2,3);
+
+    // TNRS
+
+    // function greter() {
+
+    //     var a = parseInt(prompt("Enter A : "));
+    //     var b = parseInt(prompt("Enter B : "));
+    //     var c = parseInt(prompt("Enter C : "));
+
+    //     if (a > b) {
+    //         if (a > c) {
+    //             return `A greter..`;
+    //         }
+    //         else {
+    //             return `C greter..`;
+    //         }
+    //     }
+    //     else {
+    //         if (b > c) {
+    //             return `B greter..`;
+    //         }
+    //         else {
+    //             return `C greter..`;
+    //         }
+    //     }
+
+    // }
+
+    // var ans = greter();
+    // document.write(`${ans}`);
+
+
+    // TSRS
+
+    function greter(a,b,c) {
+
+        if (a > b) {
+            if (a > c) {
+                return `A greter..`;
+            }
+            else {
+                return `C greter..`;
+            }
+        }
+        else {
+            if (b > c) {
+                return `B greter..`;
+            }
+            else {
+                return `C greter..`;
+            }
+        }
+
+    }
+
+    var ans = greter(111,22,3);
+    document.write(`${ans}`);
+
+</script>

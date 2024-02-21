@@ -1,0 +1,74 @@
+<!-- 10.Write a JavaScript program to decide that you eligible for voting? (using all function) -->
+
+<script>
+
+    // TNRN
+
+    // function vote(){
+
+    //     var age = parseInt(prompt("Enter Age : "));
+
+    //     if(age >= 18){
+    //         document.write(`You eligible..`);
+    //     }
+    //     else{
+    //         document.write(`You not eligible..`);
+    //     }
+
+    // }
+
+    // vote();
+
+    // TSRN
+
+    // function vote(age) {
+
+
+    //     if (age >= 18) {
+    //         document.write(`You eligible..`);
+    //     }
+    //     else {
+    //         document.write(`You not eligible..`);
+    //     }
+
+    // }
+
+    // vote(12);
+
+    // TNRS
+
+    // function vote() {
+
+    //     var age = parseInt(prompt("Enter Age : "));
+
+    //     if (age >= 18) {
+    //         return `You eligible..`;
+    //     }
+    //     else {
+    //         return `You not eligible..`;
+    //     }
+
+    // }
+
+    // var ans = vote();
+    // document.write(`${ans}`);
+
+    // TSRS
+
+    function vote(age) {
+
+        var age = parseInt(prompt("Enter Age : "));
+
+        if (age >= 18) {
+            return `You eligible..`;
+        }
+        else {
+            return `You not eligible..`;
+        }
+
+    }
+
+    var ans = vote(22);
+    document.write(`${ans}`);
+
+</script>
